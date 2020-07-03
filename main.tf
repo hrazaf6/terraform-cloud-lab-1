@@ -2,7 +2,7 @@ module "vpc" {
   source        = "./aws-vpc"
   cidr_block    = "172.40.0.0/16"
   environment   = "development"
-  name          = "Hamid"
+  name          = "Owner"
   public_subnet = ["pub1", "pub2", "pub3"]
 }
 
